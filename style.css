@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    background: #00ff15;
+}
+#container{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #ffd000;
+    border: 2px solid #c1d604d7;
+    box-shadow: 10px 10px 10px #93a303bd;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+#container .eyes{
+    width: 100%;
+    height: 50%;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#container .eyes .left-eyes,
+#container .eyes .right-eyes{
+    padding: 30px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #b4b4b3d7;
+    box-shadow: 4px 3px 2px 1px #444440d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container .eyes .left-eyes .pupil,
+#container .eyes .right-eyes .pupil{
+    padding: 10px;
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 4px #0e0e0dd7;
+}
+#container .mouth{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    background: radial-gradient(#7c8a03af,#26290fe8);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
